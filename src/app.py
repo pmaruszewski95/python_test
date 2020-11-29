@@ -6,6 +6,9 @@ app = Flask(__name__)
 def index():
     return "Hello, world!"
 
+@app.route("/index2")
+def indexTwo():
+    return "Httlo"
 
 if __name__ == "__main__":
     app.run()
