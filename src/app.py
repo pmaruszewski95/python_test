@@ -8,7 +8,7 @@ def index():
 
 @app.route("/index2")
 def indexTwo():
-    return "Httlo"
+    return "Hettlo"
 
 if __name__ == "__main__":
     app.run()
